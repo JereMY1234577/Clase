@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Ejercicios-DOM</title>
+</head>
+<body id="fondo">
+    
+<marquee>
+    <h1 id="'#txt'">Introduccion al DOM</h1>
+</marquee>
+<h1 id='txt'>Temperatura</h1>
+<div>
+<button onclick="Subir()">Subir</button>
+<img src="calor.jpg" alt="upss" id="calor">
+<button onclick="Bajar()">Bajar temperatura</button>
+</div>
+
+<div>
+<button onclick="Cambiarazul()">Azul</button>
+<button onclick="Cambiablanco()">Blanco</button>
+</div>
+
+<div>
+    <ol>
+          <li> Manzanas </li>
+          <li>  Manzanas </li>
+ 
+    </ol>
+ <br><br>
+ <ul id="lista">
+     <li> Lunes </li>
+     <li>Martes  </li>
+ </ul>
+ <br>
+ <input type="text" id="dato">
+ <br>
+ <button onclick="agregar()">Agregar</button>
+ <button onclick="eliminar()">Eliminar</button>
+ </div>
+
+<script src="funciones.js"></script>
+</body>
+</html>
